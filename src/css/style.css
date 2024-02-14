@@ -141,10 +141,11 @@ body {
 }
 
 .profile-image {
-  width: 150px;
-  border-radius: 50%;
-  animation: bounce 1s infinite alternate;
-}
+    width: 200px; /* 宽度设置为200px */
+    height: 200px; /* 高度也设置为200px，确保图片为正方形 */
+    border-radius: 50%; /* 使头像边缘呈圆形 */
+    animation: bounce 1s infinite alternate; /* 弹跳动画 */
+}   
 
 @keyframes bounce {
   from {
